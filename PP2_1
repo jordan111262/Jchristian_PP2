@@ -1,0 +1,9 @@
+float x= 0.0 ;
+void setup(){
+size(100,100);
+background(204);
+}
+void draw(){
+ellipse(x,50,30,30)
+	x = x + 0.3;
+}
