@@ -1,0 +1,14 @@
+float y = 0.0;
+float x =1;
+void draw() {
+background(204);
+line(0, y, 100, y);
+y = y + x;
+if (y > height){
+x = x * - 1;
+}
+if (y < 0){
+x = x * - 1;
+}
+println(y);
+}
